@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix</title>
+    <link rel="shortcut icon" href="/images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+      <img class="logo-image" src="/images/logo.png" alt="Logo da Netflix">
+    </header>
+      
+    <main>
+      <div class="card">
+        <h1 class="white-font">Entrar</h1>
+        <form class="form-login" action="get">
+          <div class="form-input">
+            <input class="input-receiver gray-font" type="email" name="email-numero" id="email-numero" placeholder="Email ou número de telefone">
+            <input class="input-receiver gray-font" type="password" name="senha" id="senha" placeholder="Senha">
+            <button class="white-font red-button" type="submit">Entrar</button>
+          </div>
+          <div class="checkbox">
+            <div>
+              <input class="caixa" type="checkbox" name="caixa" id="caixa">
+              <label class="gray-font caixa" for="caixa">Lembre-se de mim</label>
+            </div>
+            <a class="caixa gray-font " href="#">Precisa de ajuda?</a>
+          </div>
+        </form>
+      
+      <div class="card-bottom">
+        <span class="gray-font">Novo por aqui? <a class="white-font" href="#">Assine agora</a>.</span>
+        <p class="gray-font caixa">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. <span class="saiba-mais">Saiba mais.</span></p>
+      </div>
+    </div>
+    </main>
+
+    <footer class="gray-font">
+      <span class="duvidas">Dúvidas? Ligue 0800 591 8942</span>
+      <div class="informcoes">
+        <span>Perguntas frequentes</span>
+        <span>Central de Ajuda</span>
+        <span>Termos de Uso</span>
+        <span>Privacidade</span>
+        <span>Preferência de cookies</span>
+        <span>Informações corporativas</span>
+      </div>
+
+        <select class="lang-select" name="linguagem" id="linguagem" value="url(../images/globe.svg)">
+          <option lang="pt-BR">Português</option>
+          <option value="En">Inglês</option>
+        </select>
+    </footer>
+</body>
+</html>
